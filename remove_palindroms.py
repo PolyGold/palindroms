@@ -1,7 +1,7 @@
 def remove_palindroms(spells):
-    c = 0
+    d = 0
     for i in spells:
-        c += 1
+        d += 1
         if i.lower() == i[::-1].lower():
-            spells.pop(c - 1)
+            spells.pop(d - 1)
     return spells
